@@ -2,6 +2,7 @@ package cn.yueshutong.file;
 
 import java.io.*;
 import java.nio.charset.Charset;
+import java.util.Objects;
 
 /**
  * 读取ClassPathResource下的资源文件
@@ -60,6 +61,20 @@ public class ClassPathResource {
             return null;
         }
         return new String(bytes, charset);
+    }
+
+    /**
+     * 获取ClassPath根目录
+     */
+    public String getPath() {
+        return Objects.requireNonNull(this.getClass().getClassLoader().getResource("")).getPath();
+    }
+
+    /**
+     * 获取ClassPath文件路径
+     */
+    public String getPath(String filename) {
+        return Objects.requireNonNull(this.getClass().getClassLoader().getResource(filename)).getPath();
     }
 
 }

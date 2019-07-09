@@ -17,13 +17,12 @@
 ## 1.读取Resources下的资源
 
 ```java
-
 ClassPathResource resource = new ClassPathResource();
 String html = resource.readString("commons.html",StandardCharsets.UTF_8);
 String htm = resource.readString("commons.htm");
 byte[] bytes = resource.readByte("commons.html");
 InputStream inputStream = resource.read("commons.html");
-
+String resourcePath = resource.getPath(); //获取resources根目录
 ```
 
 ## 2.读取文件的ContentType

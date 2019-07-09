@@ -4,6 +4,16 @@
 
 一人计短，多人计长，也期待你加入贡献的行列。
 
+## Maven
+
+```xml
+<dependency>
+     <groupId>cn.yueshutong</groupId>
+     <artifactId>FileHelper</artifactId>
+     <version>1.0.RELEASE</version>
+</dependency>
+```
+
 ## 1.读取Resources下的资源
 
 ```java

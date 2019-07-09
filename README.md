@@ -28,9 +28,9 @@ Blog：<http://www.yueshutong.cn/>
 
 Email：[yster@foxmail.com](mailto:yster@foxmail.com)
 
-Github：<https://github.com/yueshutong/SnowJena>
+Github：<https://github.com/yueshutong/FileHelper>
 
-Gitee：<https://gitee.com/zyzpp/SnowJena>
+Gitee：<https://gitee.com/zyzpp/FileHelper>
 
 交流QQ群：781927207
 

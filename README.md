@@ -33,7 +33,7 @@ String contentType = ContentType.getContentType("/index.html");
 
 ## About
 
-Blog：<http://www.yueshutong.cn/>
+Blog：<https://yueshutong.cnblogs.com/>
 
 Email：[yster@foxmail.com](mailto:yster@foxmail.com)
 

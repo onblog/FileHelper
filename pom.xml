@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.yueshutong</groupId>
+    <groupId>com.github.onblog</groupId>
     <artifactId>FileHelper</artifactId>
-    <version>1.0.RELEASE</version>
+    <version>2.0.RELEASE</version>
 
     <name>FileHelper</name>
-    <url>http://www.yueshutong.cn</url>
-    <description>Java File Helper.文件助手</description>
+    <url>http://github.com/onblog</url>
+    <description>Java File Helper.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -102,16 +102,16 @@
 
     <scm>
         <tag>master</tag>
-        <url>https://github.com/yueshutong/FileHelper.git</url>
-        <connection>scm:git:git://github.com/yueshutong/FileHelper.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/yueshutong/FileHelper.git</developerConnection>
+        <url>https://github.com/onblog/FileHelper.git</url>
+        <connection>scm:git:git://github.com/onblog/FileHelper.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/onblog/FileHelper.git</developerConnection>
     </scm>
 
     <developers>
         <developer>
-            <name>YueShuTong</name>
-            <email>yster@foxmail.com</email>
-            <url>http://www.yueshutong.cn</url>
+            <name>onblog</name>
+            <email>codeblog@qq.com</email>
+            <url>http://github.com/onblog</url>
         </developer>
     </developers>
 

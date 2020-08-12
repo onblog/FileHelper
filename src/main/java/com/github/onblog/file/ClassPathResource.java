@@ -1,4 +1,4 @@
-package cn.yueshutong.file;
+package com.github.onblog.file;
 
 import java.io.*;
 import java.nio.charset.Charset;

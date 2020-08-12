@@ -1,6 +1,6 @@
-package cn.yueshutong.http;
+package com.github.onblog.http;
 
-import cn.yueshutong.file.ClassPathResource;
+import com.github.onblog.file.ClassPathResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

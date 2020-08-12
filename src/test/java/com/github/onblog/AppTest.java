@@ -1,6 +1,6 @@
-package cn.yueshutong;
+package com.github.onblog;
 
-import cn.yueshutong.file.ClassPathResource;
+import com.github.onblog.file.ClassPathResource;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -11,7 +11,6 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
 
@@ -45,7 +44,7 @@ public class AppTest {
             String text3 = td.get(3).text();
             properties.setProperty(text2,text3);
         }
-        File file = new File("/Users/yueshutong/IdeaProjects/FileHelper/src/main/resources/content-type.properties");
+        File file = new File("content-type.properties");
         if (!file.exists()){
             file.createNewFile();
         }

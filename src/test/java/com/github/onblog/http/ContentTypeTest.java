@@ -1,4 +1,4 @@
-package cn.yueshutong.http;
+package com.github.onblog.http;
 
 import org.junit.Test;
 

@@ -4,16 +4,6 @@
 
 一人计短，多人计长，也期待你加入贡献的行列。
 
-## Maven
-
-```xml
-<dependency>
-     <groupId>cn.yueshutong</groupId>
-     <artifactId>FileHelper</artifactId>
-     <version>1.0.RELEASE</version>
-</dependency>
-```
-
 ## 1.读取Resources下的资源
 
 ```java
@@ -33,7 +23,7 @@ String contentType = ContentType.getContentType("/index.html");
 
 ## About
 
-Email：[yster@foxmail.com](mailto:yster@foxmail.com)
+Email：[codeblog@qq.com](mailto:codeblog@qq.com)
 
 如果帮助到你了，请不吝赞赏！谢谢！
 
